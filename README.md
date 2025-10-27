@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 real world production code, using if-else condition becomes costly as one extra else could crash the application. Knowing proper replacements separates junior devs from seniors.
 
 if (paymentType.equals("creditcard")) {
@@ -26,11 +26,11 @@ strategyMap.get(type).processPayment(payment);
 Boom. Now you can add new logic without touching the old code. Clean, scalable, and maintainable.
 
 ![1761495072312](https://github.com/user-attachments/assets/b8dba54c-2dbd-4f41-aeb7-db2d0fda5840)
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**-----------------------------------------------------------------------------------------------------------------------------------------------------------------**
 JAVA NEW FEATURES
 ![1761326164787](https://github.com/user-attachments/assets/9f97263f-2b3a-4e70-93f9-4d1d40aa806d)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**-----------------------------------------------------------------------------------------------------------------------------------------------------------------**
 In a Spring Boot ProductController, you must handle two distinct scenarios: returning a simple 404 Not Found status when a product is missing, and returning a 201 Created status with a dynamic Location header upon successful creation. What are the Spring mechanisms you would use to implement each of these requirements, and why?
 
 Two main ways to control the HTTP response to send back to client: @ResponseStatus and ResponseEntity
@@ -49,4 +49,4 @@ Two main ways to control the HTTP response to send back to client: @ResponseStat
 By combining them, using @RestControllerAdvice to handle exceptions globally, we can use @ResponseStatus for common errors and ResponseEntity for more specific, dynamic ones, giving us both efficiency and flexibility
 ![1761325976752](https://github.com/user-attachments/assets/9b197e14-0806-47f8-8299-c6cbab8d2df1)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**-----------------------------------------------------------------------------------------------------------------------------------------------------------------**

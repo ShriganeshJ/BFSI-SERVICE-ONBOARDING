@@ -1,3 +1,4 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 real world production code, using if-else condition becomes costly as one extra else could crash the application. Knowing proper replacements separates junior devs from seniors.
 
 if (paymentType.equals("creditcard")) {
@@ -25,3 +26,4 @@ strategyMap.get(type).processPayment(payment);
 Boom. Now you can add new logic without touching the old code. Clean, scalable, and maintainable.
 
 ![1761495072312](https://github.com/user-attachments/assets/b8dba54c-2dbd-4f41-aeb7-db2d0fda5840)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
